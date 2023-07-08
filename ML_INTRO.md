@@ -30,3 +30,7 @@
   * ...many more
   * In PyTorch, we are focusing in: Neural networks, Fully connected neural network and Convolutional neural network.
 
+#### Types of Learning
+* **Supervised Learning**
+* **Unsupervised & Self-supervised Learning**
+* **Transfer Learning**
