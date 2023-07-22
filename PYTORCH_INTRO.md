@@ -9,3 +9,8 @@
 #### What is GPU/TPU?
 * **GPU** (Graphics Processing Unit)
 * **TPU** (Tensor Processing Unit)
+
+#### Resources
+1. [https://wwww.github.com/mrdbourke/pytorch-deep-learning](https://wwww.github.com/mrdbourke/pytorch-deep-learning)
+2. [https://learnpytorch.io](https://learnpytorch.io)
+3. [https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
