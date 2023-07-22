@@ -11,6 +11,6 @@
 * **TPU** (Tensor Processing Unit)
 
 #### Resources
-1. [https://wwww.github.com/mrdbourke/pytorch-deep-learning](https://wwww.github.com/mrdbourke/pytorch-deep-learning)
+1. [https://github.com/mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning)
 2. [https://learnpytorch.io](https://learnpytorch.io)
 3. [https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
