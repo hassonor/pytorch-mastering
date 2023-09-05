@@ -180,3 +180,23 @@ ___
 * More of one class than the others
 * Our Data - 65% No Diabetes, 35% Diabetes
 * Can be causing biases estimation yielding poor predication results. 
+
+### Cross Validation
+* `Tuning Hyperparameters with Cross Validation`
+```md
+For each fold
+
+Determine the best hyperparameter value
+
+Next
+
+Set model hyperparameter value to average best
+
+```
+
+#### Algorithm CV Variants
+* Algorithm + Cross Validation  = AlgorithmCV
+* Ends in "CV"
+* Exposes fit(), predict(),...
+* Runs the algorithm K times
+* Can be used like normal algorithm
