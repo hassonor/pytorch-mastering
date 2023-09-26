@@ -87,3 +87,26 @@ print(x2)
 
 x3 = np.random.randint(3, 8, 10)  # will generate 10 random integers between 3 and 8
 print(x3)
+
+# Indexing and slicing with 1D Array
+ar = np.array([4, 2, 3, 13, 5, 7, 14])
+print(ar)  # [4, 2, 3, 13, 5, 7, 14]
+print(ar[3])  # 13
+print(ar[1:4])  # [2,3,13]
+print(ar[-1])  # extracting last member of array: 14
+print(ar[1:])  # Slicing from index 1 to end
+print(ar[:4])  # Slicing upto index 3
+print(ar[:-1])  # Include everything except the last member of array
+print(ar[::-1])  # Reversing or flipping the array
+
+# Indexing of sub-array and sub-matrix from 2D (matrix) array
+arr = np.arange(1, 17).reshape(4, 4)
+print(arr)  # [[1,2,3,4],[5,6,7,8],[9,10,11,12], [13,14,15,16]]
+print(arr[0])  # [1,2,3,4]
+print(arr[3])  # [13,14,15,16]
+print(arr[2][1])  # 10
+print(arr[2, 1])  # 10
+print(arr[1:3, 1:3])  # [[6,7],[10,11]]
+print(arr[:, 3])  # Extracting last column [4,8,12,16]
+print(arr[:, 3].reshape(-1, 1))  # Extracting last column vertically: [[4],[8],[12],[16]]
+print(arr[:, 3:])  # Other way of Extracting last column vertically:[[4],[8],[12],[16]]
